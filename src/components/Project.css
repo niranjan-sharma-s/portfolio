@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+
+.projects {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.myProject{
+    color: white;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    padding-top: 2rem;
+    text-align: center;
+    margin-bottom: 3.5rem;
+}
+
+.title{
+    color:white;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+}
+
+.project-list{
+    display: flex;
+    line-height: 2.5rem;
+    text-align: center;
+}
+.projects img {
+    width: 95%;
+    border-radius: 20px
+}
+
+.project-one , .project-two , .project-three{
+  margin: auto;
+}
+
+
+.projects a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+    padding: 0.4rem;
+    background: rgb(10 142 67);
+    border-radius: 13px;
+    transform: fade 1s ease;
+    text-align: center;
+}
+
+.projects a:hover{
+    opacity: 0.5;
+}
+
+@media only screen and (max-width: 600px) {
+    .myProject {
+        font-size: 2rem;
+    }
+    .project-list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 360px;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .projects img {
+        width: 100%;
+        margin-top: 0rem;
+    }
+
+        .project-one,
+        .project-two,
+        .project-three {
+            margin-bottom: 1rem;
+        }
+}
