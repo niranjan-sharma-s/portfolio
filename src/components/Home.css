@@ -45,22 +45,4 @@
         height: 346px;
         border-top-left-radius: 214px 130px;
     }
-/* 
-    .home h1,.home h2, .home h3{
-    
-        font-size: 1.5rem;
-     
-        line-height: 2rem;
-    } */
-
-
-
-    /* .home::before{
-  
-        width: 50%;
-        height:50%;
-        border-radius:0;
-        left: 26%;
-        background-size: contain;
-    } */
 }
